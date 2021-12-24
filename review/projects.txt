@@ -1,0 +1,28 @@
+<div class="centered">
+    <img class="star" src="star.gif" title="mariooooooo"><h3 id="title">Projects</h3>
+    <hr>
+
+    <div class="break"></div>
+
+    <ul class="projects">
+        <li>
+            <details>
+                <summary>Pomodoro Timer</summary>
+                    <div>
+                        Timer with study and break sessions. Chrome extension version is in the works!
+                        <a class="project" href="https://github.com/GoldenKimchee/PomodoroTimerExtension" target="_blank" rel="noreferrer">Link</a>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Simple RPG</summary>
+                    <div>
+                        A text-adventure RPG style made with Python. Still working on it-
+                        <a class="project" href="https://github.com/GoldenKimchee/SimpleRPG" target="_blank" rel="noreferrer">Link</a>
+                    </div>
+            </details>
+        </li>
+    </ul>
+    <small>more projects found <a class="project" href="https://github.com/GoldenKimchee" target="_blank" rel="noreferrer">here</a>!</small>
+</div>

@@ -1,24 +1,27 @@
 <img id="profile-picture" src="slime.gif" alt="RPG style profile picture" title="yea i made this"/>
-            <h3 id="name">Rachel Kim</h3>
-            <h4 id="title"><i>Lvl.</i> 7 <small><i>[</i><abbr title="University of Washington, Bothell campus">UWB</abbr> student<i>]</i></small></h4>
-            
-            <small>Software developer based in Bothell</small>
+<h3 id="name">Rachel Kim</h3>
+<h4 id="title"><i>Lvl.</i> 7 <small><i>[</i><abbr title="University of Washington, Bothell campus">UWB</abbr> Junior<i>]</i></small></h4>
 
-            <ul>
-                <li>
-                    <h5>Bachelor's in <abbr title="Computer Science and Software Engineering"><i>CSSE</i></abbr></h5>
-                    <label for="csse-progress"></label>
-                    <progress id="csse-progress" value="5" max="10">40%</progress>
-                </li>
-                <li>
-                    <h5>Interested in...</h5>
-                    <ul class="list">
-                        <li>
-                            <img class="arrow" src="arrow.gif"><h5><i>A</i>ndroid apps</h5>
-                        </li>
-                        <li>
-                            <img class="arrow" src="arrow.gif"><h5><i>F</i>ull-stack websites</h5>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+<small>Software developer based in Bothell</small>
+
+<hr style="width: 81%;
+margin-left: auto;">
+
+<ul>
+    <li>
+        <h5>Bachelor's in <abbr title="Computer Science and Software Engineering"><i>CSSE</i></abbr></h5>
+        <label for="csse-progress"></label>
+        <progress id="csse-progress" value="5" max="10">40%</progress>
+    </li>
+    <li>
+        <h5>Interested in...</h5>
+        <ul class="list">
+            <li>
+                <img class="arrow" src="arrow.gif"><h5><i>A</i>ndroid apps</h5>
+            </li>
+            <li>
+                <img class="arrow" src="arrow.gif"><h5><i>F</i>ull-stack websites</h5>
+            </li>
+        </ul>
+    </li>
+</ul>
