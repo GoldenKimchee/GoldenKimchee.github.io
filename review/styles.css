@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 2em;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    min-height:100vh;
+    font-size: 100%;
+    background: url("background.png");
+}
+
+main {
+    position: absolute;
+    top:  45%;
+    left: 50%;
+    min-width: 40%;
+    transform: translate(-50%,-50%);
+}
+
+button {
+    position: absolute;
+    top:  78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(24, 24, 24);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    margin: auto;
+    padding: 25px;
+    background: rgb(24, 24, 24);
+}
+
+nav {
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav a {
+    padding: 0.4em 1em;    
+    background-color: rgb(24, 24, 24);
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+#profile-picture {
+    float:left;
+    width: 18%;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    border: 0.2em white solid;
+}
+
+
+#name {
+    display: inline;
+}
+
+i {
+    font-style: normal;
+    color: rgb(255, 215, 0);
+}
+
+small {
+    font-size: 0.7em;
+}
+
+#contacts {
+    display: inline; 
+    text-align: center;
+}
+
+.sparkle {
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    transform: scaleX(-1);
+    width: 12%;
+}
+
+.hearts {
+    width: 2em;
+}
+
+.list {
+    position: relative;
+}
+
+.arrow {
+    width: 1.4em;
+    padding-right: 5px;
+}
+
+.centered {
+    text-align: center;
+    line-height: 3em;
+}
+
+i.icon {
+    font-size: 1.8em;
+    padding-right: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+h5 {
+    display: inline;
+}
+
+footer {
+    position: fixed;
+    padding: 5px;
+    bottom:0;
+    font-size: .7em;
+    width: 100%;
+    text-align: center;
+}
