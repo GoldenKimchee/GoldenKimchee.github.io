@@ -1,5 +1,25 @@
 "use strict"
 
+function toggleTab(tab) {
+  let toggleClasses = new Array();
+
+  switch(tab) {
+    case ".home-link":
+      toggleClasses.push([".projects-link", ".contacts-link"]);
+      break;
+    case ".projects-link":
+      toggleClasses.push([".home-link", ".contacts-link"]);
+      break;
+    case ".contacts-link":
+      toggleClasses.push([".home-link", ".projects-link"]);
+      break;
+  };
+
+  for (let i = 0; i < toggleClasses.length; i++) {
+    document.querySelector(toggleClasses[i]).classList.toggle("clicked");
+  }
+}
+
 function loadHome() {
   let xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -7,7 +27,7 @@ function loadHome() {
       document.querySelector("section").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "home.txt", true);
+  xhttp.open("GET", "pages/home.txt", true);
   xhttp.send();
 }
 
@@ -18,7 +38,7 @@ function loadProjects() {
       document.querySelector("section").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "projects.txt", true);
+  xhttp.open("GET", "pages/projects.txt", true);
   xhttp.send();
 }
 
@@ -29,6 +49,6 @@ function loadContacts() {
       document.querySelector("section").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "contacts.txt", true);
+  xhttp.open("GET", "pages/contacts.txt", true);
   xhttp.send();
 }

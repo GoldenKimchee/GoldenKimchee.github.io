@@ -14,7 +14,7 @@ html {
 body {
     min-height:100vh;
     font-size: 100%;
-    background: url("background.png");
+    background: url("images/background.png");
 }
 
 a {
@@ -95,6 +95,14 @@ small {
     font-size: 0.7em;
 }
 
+h4 .title {
+    display:block;
+}
+
+small #position {
+    display: block;
+}
+
 .star {
     width: 5%;
     margin-right: 15px;
@@ -110,7 +118,7 @@ small {
     right: -30px;
     bottom: -30px;
     transform: scaleX(-1);
-    width: 12%;
+    width: 10%;
 }
 
 .hearts {
@@ -173,10 +181,23 @@ a.project {
 
 summary {
     cursor: pointer;
-    list-style-image: url("arrow-bullet.gif");
+    list-style-image: url("images/arrow-bullet.gif");
 }
   
 summary::-webkit-details-marker {
-    background: url("arrow-bullet.gif");
+    background: url("images/arrow-bullet.gif");
     color: transparent;
+}
+
+abbr {
+    border-bottom: 2px solid;
+}
+
+progress {
+    width: 20%;
+    height: 10px;
+}
+
+.clicked {
+    background-color:rgb(34, 34, 34);
 }
