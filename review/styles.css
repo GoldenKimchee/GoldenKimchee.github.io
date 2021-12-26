@@ -55,8 +55,9 @@ button {
 }
 
 section {
+    width: 100%;
     margin: auto;
-    padding: 25px;
+    padding: 2em;
     background: rgb(24, 24, 24);
 }
 
@@ -76,7 +77,7 @@ nav a {
 
 #profile-picture {
     float:left;
-    width: 17%;
+    max-height: 5em;
     margin-top: 0.5em;
     margin-right: 1em;
     border: 0.2em white solid;
@@ -93,10 +94,6 @@ i {
 
 small {
     font-size: 0.7em;
-}
-
-h4 .title {
-    display:block;
 }
 
 small #position {
@@ -123,6 +120,10 @@ small #position {
 
 .hearts {
     width: 2em;
+}
+
+small#sub {
+    display: block;
 }
 
 .list {

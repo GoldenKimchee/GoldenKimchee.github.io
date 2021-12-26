@@ -18,20 +18,20 @@
 
     <main>
         <nav>
-            <a class="nav-link home-link" onclick="loadProjects(), toggleTab('.home-link')"><i class="fas fa-home"></i></a>
-            <a class="nav-link projects-link" onclick="loadProjects(), toggleTab('.projects-link')"><i class="fas fa-code"></i></a>
-            <a class="nav-link contacts-link" onclick="loadContacts(), toggleTab('.contacts-link')"><i class="fas fa-heart"></i></a>
+            <a class="nav-link home-link" onclick="loadHome(), toggleTab('.home-link')"><i class="fas fa-home"></i></a>
+            <a class="nav-link projects-link clicked" onclick="loadProjects(), toggleTab('.projects-link')"><i class="fas fa-code"></i></a>
+            <a class="nav-link contacts-link clicked" onclick="loadContacts(), toggleTab('.contacts-link')"><i class="fas fa-heart"></i></a>
         </nav>
 
         <section>
             <img id="profile-picture" src="images/slime.gif" alt="RPG style profile picture" title="yea i made this"/>
+
             <h3 id="name">Rachel Kim</h3>
             <h4 id="title"><i>Lvl.</i> 7 <small><i>[</i><abbr title="University of Washington, Bothell campus">UWB</abbr> Junior<i>]</i></small></h4>
-            
-            <small>Software developer based in Bothell</small>
-            
-            <hr style="width: 81%;
-            margin-left: auto;">
+            <small id="sub">Software developer based in Bothell</small>
+
+            <hr style="width: 80%;
+            margin-left: auto; margin-right: 3%;">
 
             <ul>
                 <li>

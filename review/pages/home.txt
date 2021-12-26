@@ -1,11 +1,11 @@
-<img id="profile-picture" src="./images/slime.gif" alt="RPG style profile picture" title="yea i made this"/>
+<img id="profile-picture" src="images/slime.gif" alt="RPG style profile picture" title="yea i made this"/>
+
 <h3 id="name">Rachel Kim</h3>
 <h4 id="title"><i>Lvl.</i> 7 <small><i>[</i><abbr title="University of Washington, Bothell campus">UWB</abbr> Junior<i>]</i></small></h4>
+<small id="sub">Software developer based in Bothell</small>
 
-<small>Software developer based in Bothell</small>
-
-<hr style="width: 81%;
-margin-left: auto;">
+<hr style="width: 80%;
+margin-left: auto; margin-right: 3%;">
 
 <ul>
     <li>
@@ -20,7 +20,7 @@ margin-left: auto;">
                 <img class="arrow" src="images/arrow.gif"><h5><i>G</i>ame development</h5>
             </li>
             <li>
-                <img class="arrow" src="./images/arrow.gif"><h5><i>F</i>ull-stack websites</h5>
+                <img class="arrow" src="images/arrow.gif"><h5><i>F</i>ull-stack websites</h5>
             </li>
         </ul>
     </li>

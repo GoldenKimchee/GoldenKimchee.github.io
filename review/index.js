@@ -1,22 +1,31 @@
 "use strict"
 
-function toggleTab(tab) {
-  let toggleClasses = new Array();
+function toggleTab(tab) {  
+  let clickedTab = document.querySelector(tab).classList;
+  if (clickedTab.contains("clicked")) {
+    clickedTab.toggle("clicked");
+  }
 
+  let toggleClasses;
+  
   switch(tab) {
     case ".home-link":
-      toggleClasses.push([".projects-link", ".contacts-link"]);
+      toggleClasses = [".projects-link", ".contacts-link"];
       break;
     case ".projects-link":
-      toggleClasses.push([".home-link", ".contacts-link"]);
+      toggleClasses = [".home-link", ".contacts-link"];
       break;
     case ".contacts-link":
-      toggleClasses.push([".home-link", ".projects-link"]);
+      toggleClasses = [".home-link", ".projects-link"];
       break;
   };
-
+  
   for (let i = 0; i < toggleClasses.length; i++) {
-    document.querySelector(toggleClasses[i]).classList.toggle("clicked");
+    let classes = document.querySelector(toggleClasses[i]).classList;
+    if (classes.contains("clicked")) {
+      continue;
+    }
+    classes.toggle("clicked");
   }
 }
 
