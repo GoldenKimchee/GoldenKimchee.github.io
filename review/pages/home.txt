@@ -1,31 +1,28 @@
-<img id="profile-picture" src="images/slime.gif" alt="RPG style profile picture" title="yea i made this"/>
+<div class="split">
+    <h3 id="name">Rachel Kim</h3>
+    <h4 id="title"><i>[</i><abbr title="University of Washington, Bothell campus">UWB</abbr> Junior<i>]</i></small></h4>
+    <small id="sub">Software developer based in Bothell</small>
+</div>
 
-<h3 id="name">Rachel Kim</h3>
-<h4 id="title"><i>Lvl.</i> 7 <small><i>[</i><abbr title="University of Washington, Bothell campus">UWB</abbr> Junior<i>]</i></small></h4>
-<small id="sub">Software developer based in Bothell</small>
+<hr style="width: 100%;">
 
-<hr style="width: 80%;
-margin-left: auto; margin-right: 3%;">
+<div class="break"></div>
+<h5>Bachelor's in <abbr title="Computer Science and Software Engineering"><i>CSSE</i></abbr></h5>
 
-<ul>
+<div style="display:inline-block; height: 2rem; width: 10rem; background-color:rgb(151, 151, 151); text-align:center;">
+    <div style="height: 2rem; width:50%; background-color: gold; color:rgb(17, 17, 17);">50%</div>
+</div>
+
+<h5 style="display:block;">Interested in...</h5>
+<ul class="list">
     <li>
-        <h5>Bachelor's in <abbr title="Computer Science and Software Engineering"><i>CSSE</i></abbr></h5>
-        <label for="csse-progress"></label>
-        <progress id="csse-progress" value="5" max="10">40%</progress>
+        <img class="arrow" src="images/arrow.gif"><h5><i>G</i>ame development</h5>
     </li>
     <li>
-        <h5>Interested in...</h5>
-        <ul class="list">
-            <li>
-                <img class="arrow" src="images/arrow.gif"><h5><i>G</i>ame development</h5>
-            </li>
-            <li>
-                <img class="arrow" src="images/arrow.gif"><h5><i>F</i>ull-stack websites</h5>
-            </li>
-        </ul>
+        <img class="arrow" src="images/arrow.gif"><h5><i>F</i>ull-stack websites</h5>
     </li>
 </ul>
 
 <div id="wrapper">
-    <button class="resume"><i class="icon fas fa-file-download"></i> Résumé</button>
+    <a href="files/resume.pdf" download="RK-resume.pdf" target="_blank"><button class="resume"><i class="icon fas fa-file-download"></i>Résumé</button></a>
 </div>

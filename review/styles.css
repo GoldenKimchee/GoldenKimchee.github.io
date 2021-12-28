@@ -15,7 +15,7 @@ html {
     position: relative;
     min-height: 100%;
     height: 100%;
-    font-size: 16px;
+    font-size: 20px;
     scroll-behavior: smooth;
 }
 
@@ -49,8 +49,8 @@ div.break {
 }
 
 main {
-    width: max(45vw, 500px);
-    margin: auto;
+    width: max(45vw, 400px);
+    margin: 0 auto;
 }
 
 div#main-break {
@@ -68,6 +68,19 @@ button.resume {
 .flipped {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+button:hover {
+    animation-name: fade;
+    animation-duration: 0.16s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes fade {
+    100% {
+        background-color: rgb(58, 58, 58);
+    }
 }
 
 #wrapper {
@@ -98,13 +111,6 @@ nav a {
 
 div.break {
     height:1rem;
-}
-
-#profile-picture {
-    object-fit: cover;
-    margin: 1rem;
-    max-width: 5rem;
-    border: 0.2rem white solid;
 }
 
 #name {
@@ -207,7 +213,9 @@ summary::-webkit-details-marker {
 }
 
 abbr {
-    border-bottom: 2px solid;
+    color: gold;
+    text-decoration: none;
+    border-bottom: white 2px solid;
 }
 
 progress {
