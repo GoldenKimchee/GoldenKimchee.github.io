@@ -3,22 +3,35 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-    font-family: 'Press Start 2P', Arial, sans-serif;;
-    line-height: 2em;
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    line-height: 2rem;
+}
+
+:root {
+    --main-bg-color: rgb(31, 31, 31);
 }
 
 html {
-    height: 100vh;
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
-    min-height:100vh;
-    font-size: 100%;
+    height:100vh;
+    font-size: 1rem;
     background: url("images/background.png");
 }
 
 a {
     text-decoration: none;
+    line-height: 1rem;
+}
+
+div.break {
+    height: 1rem;
 }
 
 .nav-link:hover > .fas {
@@ -36,29 +49,37 @@ a {
 }
 
 main {
-    position: absolute;
-    top:  45%;
-    left: 50%;
-    min-width: 50%;
-    transform: translate(-50%,-50%);
+    width: max(45vw, 500px);
+    margin: auto;
 }
 
-button {
-    position: absolute;
-    top:  78%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: rgb(24, 24, 24);
+div#main-break {
+    height: max(20%, 50px);
+}
+
+button.resume {
+    background-color: var(--main-bg-color);
     padding: 10px 15px;
-    border: none;
+    margin-top: 10px;
+    border: white 2px solid;
     cursor: pointer;
+}
+
+.flipped {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 section {
     width: 100%;
     margin: auto;
-    padding: 2em;
-    background: rgb(24, 24, 24);
+    padding: 2rem;
+    background: var(--main-bg-color);
 }
 
 nav {
@@ -69,18 +90,21 @@ nav {
 }
 
 nav a {
-    padding: 0.4em 1em;    
-    background-color: rgb(24, 24, 24);
-    padding-bottom: 15px;
+    padding: 1.5rem 1.5rem;   
+    font-size: 1.4rem; 
+    background-color: var(--main-bg-color);
     cursor: pointer;
 }
 
+div.break {
+    height:1rem;
+}
+
 #profile-picture {
-    float:left;
-    max-height: 5em;
-    margin-top: 0.5em;
-    margin-right: 1em;
-    border: 0.2em white solid;
+    object-fit: cover;
+    margin: 1rem;
+    max-width: 5rem;
+    border: 0.2rem white solid;
 }
 
 #name {
@@ -93,7 +117,7 @@ i {
 }
 
 small {
-    font-size: 0.7em;
+    font-size: 0.7rem;
 }
 
 small #position {
@@ -101,7 +125,7 @@ small #position {
 }
 
 .star {
-    width: 5%;
+    width: 1.8rem;
     margin-right: 15px;
 }
 
@@ -111,15 +135,11 @@ small #position {
 }
 
 .sparkle {
-    position: absolute;
-    right: -30px;
-    bottom: -30px;
-    transform: scaleX(-1);
-    width: 10%;
+    width: 3.4rem;
 }
 
 .hearts {
-    width: 2em;
+    width: 1.8rem;
 }
 
 small#sub {
@@ -131,17 +151,18 @@ small#sub {
 }
 
 .arrow {
-    width: 1.4em;
+    max-height: 1.4rem;
+    width: 1.5rem;
     padding-right: 5px;
 }
 
 .centered {
     text-align: center;
-    line-height: 2.5em;
+    line-height: 2.5rem;
 }
 
 i.icon {
-    font-size: 1.8em;
+    font-size: 1.2rem;
     padding-right: 10px;
 }
 
@@ -153,24 +174,19 @@ h5 {
     display: inline;
 }
 
-div .break {
-    height:10px;
-}
-
 ul.contacts li {
-    line-height: 3em;
+    line-height: 3rem;
 }
 
 details div {
-    font-size: 0.7em;
-    line-height: 1.4em;
+    font-size: 0.7rem;
+    line-height: 1.4rem;
 }
 
 footer {
-    position: fixed;
-    padding: 5px;
-    bottom:0;
-    font-size: .7em;
+    margin-top:auto;
+    font-size: .7rem;
+    height: 60px;
     width: 100%;
     text-align: center;
 }
@@ -200,5 +216,24 @@ progress {
 }
 
 .clicked {
-    background-color:rgb(34, 34, 34);
+    background-color:rgb(39, 39, 39);
+}
+
+.split {
+    text-align: center;
+}
+
+small.more {
+    display:block;
+    line-height: 1.3rem;
+}
+
+@media (max-width: 500px) {
+    main {
+        width: 100%;
+    }
+
+    div#main-break {
+        height: 40px;
+    }
 }

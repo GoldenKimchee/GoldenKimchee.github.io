@@ -25,3 +25,7 @@ margin-left: auto; margin-right: 3%;">
         </ul>
     </li>
 </ul>
+
+<div id="wrapper">
+    <button class="resume"><i class="icon fas fa-file-download"></i> Résumé</button>
+</div>

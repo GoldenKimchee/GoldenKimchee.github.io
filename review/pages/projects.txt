@@ -24,5 +24,6 @@
             </details>
         </li>
     </ul>
-    <small>more projects found on my <a class="project" href="https://github.com/GoldenKimchee" target="_blank" rel="noreferrer">Github</a>!</small>
+    <div class="break"></div>
+    <small class="more">more projects found on my <a class="project" href="https://github.com/GoldenKimchee" target="_blank" rel="noreferrer">Github</a>!</small>
 </div>
