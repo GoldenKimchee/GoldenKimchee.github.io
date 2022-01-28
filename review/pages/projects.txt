@@ -16,10 +16,10 @@
         </li>
         <li>
             <details>
-                <summary>Simple RPG</summary>
+                <summary>CBIR App</summary>
                     <div>
-                        A text-adventure RPG style made with Python. Still working on it-
-                        <a class="project" href="https://github.com/GoldenKimchee/SimpleRPG" target="_blank" rel="noreferrer">Link</a>
+                        Image analyzer that sorts images based on their color scheme similarity or intensity.
+                        <a class="project" href="https://github.com/GoldenKimchee/CBIR-app" target="_blank" rel="noreferrer">Link</a>
                     </div>
             </details>
         </li>
