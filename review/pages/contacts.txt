@@ -14,7 +14,7 @@
         </li>
         <div class="break"></div>
         <li>
-            <small class="more">...or email rachelkim8084@gmail.com</small>
+            <small class="more">or email rachelkim8084@gmail.com</small>
         </li>
     </ul>
 </div>

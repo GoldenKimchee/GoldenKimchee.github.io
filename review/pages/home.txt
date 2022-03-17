@@ -10,7 +10,7 @@
 <h5>Bachelor's in <abbr title="Computer Science and Software Engineering"><i>CSSE</i></abbr></h5>
 
 <div style="display:inline-block; height: 2rem; width: 10rem; background-color:rgb(151, 151, 151); text-align:center;">
-    <div style="height: 2rem; width:50%; background-color: gold; color:rgb(17, 17, 17);">50%</div>
+    <div style="height: 2rem; width:75%; background-color: gold; color:rgb(17, 17, 17);">75%</div>
 </div>
 
 <h5 style="display:block;">Interested in...</h5>

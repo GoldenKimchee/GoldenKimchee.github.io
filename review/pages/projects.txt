@@ -9,7 +9,7 @@
             <details>
                 <summary>Pomodoro Timer</summary>
                     <div>
-                        Timer with study and break sessions. Chrome extension version is in the works!
+                        Timer with study and break sessions.
                         <a class="project" href="https://github.com/GoldenKimchee/PomodoroTimerExtension" target="_blank" rel="noreferrer">Link</a>
                     </div>
             </details>
@@ -18,12 +18,21 @@
             <details>
                 <summary>CBIR App</summary>
                     <div>
-                        Image analyzer that sorts images based on their color scheme similarity or intensity.
+                        Image analyzer sorts images based on content.
                         <a class="project" href="https://github.com/GoldenKimchee/CBIR-app" target="_blank" rel="noreferrer">Link</a>
+                    </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Shot Boundary App</summary>
+                    <div>
+                        Detects the start and end of the shot.
+                        <a class="project" href="https://github.com/GoldenKimchee/Video-Shot-Boundary-Detection-System/tree/optimization" target="_blank" rel="noreferrer">Link</a>
                     </div>
             </details>
         </li>
     </ul>
     <div class="break"></div>
-    <small class="more">more projects found on my <a class="project" href="https://github.com/GoldenKimchee" target="_blank" rel="noreferrer">Github</a>!</small>
+    <small class="more">more projects at <a class="project" href="https://github.com/GoldenKimchee" target="_blank" rel="noreferrer">Github</a>!</small>
 </div>
