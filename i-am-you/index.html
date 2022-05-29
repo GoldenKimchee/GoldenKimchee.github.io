@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>I Am You</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Rubik+Glitch&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+	<!--Background video-->
+	<video autoplay muted loop id="background-video">
+		<source src="videos/morphingwhite.mp4" type="video/mp4">
+	</video>
+
+	<!--Pop-up warning window, appears when page is first loaded-->
+	<dialog id="modal" class="center-modal">
+		<h3>P.S.</h3>
+		<p>This game is still under development.</p>
+		<button id="close-modal">Ok</button>
+	</dialog>
+
+	<!--Game banner at top of page-->
+	<div id="game-banner">
+		<h1 id="title">I Am You</h1>
+		<img src="images/photobashed-eye-banner.png" alt="Game banner">	
+	</div>
+	
+	<div class="centered-block">
+		<nav>
+			<ul>
+				<li class="link-wrapper"><a href="#" class="link hover">I am You</a></li>
+				<li class="link-wrapper"><a href="dev-notes.html" class="link hover">Dev notes</a></li>
+				<li class="link-wrapper"><a href="about.html" class="link hover">About</a></li>
+			</ul>
+		</nav>
+
+		<main>
+
+			<article id="game-pitch" class="centered">
+				<img src="images/ink-blotch.png" alt="ink blotch image" id="ink-blotch">
+				
+				<h2>The Story.</h2>
+
+				<p>
+					In a quiet town in the countryside, 
+					there exist beings that are unpredictable and dangerous. 
+				</p>
+
+				<p>
+					The locals call them evil spirits. The city folk call it all a hoax.
+				</p>
+
+				<p>
+					Others might think it an animal, human, or eldritch abomination.
+				</p>
+
+				<p>
+					But you know that whatever it is you're dealing with is something else.
+				</p>
+
+				<p>
+					Help Brennan find a means to survive, 
+					or let <span> it </span> have it's way with you...  
+				</p>
+				
+			</article>
+
+
+			<article id="game-intro">
+				<h2>A psychological horror game.</h2>
+				<br>
+
+				<p>
+					<span>I am You</span> is a short, psychological horror story with mystery elements.
+				</p>
+
+				<p>
+					Read newspaper clippings and listen to the ramblings of the townsfolk.
+				</p>
+
+				<p>
+					Gather important belongings left behind by former residents.
+				</p>
+
+				<p>
+					Sort the clues together,
+				</p>
+
+				<p>
+				and figure out the true nature of <span class="red">it</span>.
+				</p>
+
+			</article>
+
+		</main>
+
+		<footer>
+			&copy; 2022 | <a href="https://github.com/GoldenKimchee" target="_blank" rel="noreferrer">Rachel Kim</a>
+		</footer>
+	</div>
+
+	<script src="index.js" async></script>
+
+</body>
+</html>

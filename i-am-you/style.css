@@ -1,0 +1,225 @@
+:root {
+    --clr-primary-400: 263 55% 52%;
+    --clr-secondary-400: 217 19% 35%;
+    --font-color: white;
+  
+    --ff-primary: 'Assistant', sans-serif;
+    --ff-glitch: 'Rubik Glitch', cursive;
+  
+    --fs-400: 0.8125rem;
+    --fs-500: 1.25rem;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  section#about a {
+    text-decoration: underline;
+  }
+
+.link-wrapper {
+  position: relative;
+  display: block;
+  padding: 8px 0;
+}
+
+.hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  background-color: white;
+
+  transition: transform 0.3s;
+}
+
+.hover:hover::after {
+  transform: scaleX(.9);    
+}
+  
+  /* Set core root defaults */
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+  
+  /* Set core body defaults */
+  body {
+    font-family: var(--ff-primary);
+    font-size: 1.5rem;
+    color:var(--font-color);
+    background-color: grey;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 2.3rem;
+    min-width: 100vw;
+    margin: auto;
+  }
+
+  #background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+  .centered-block {
+    max-width: min(100%, 1000px);
+    background-color: rgb(6, 6, 6);
+    margin: auto;
+    padding: min(30px, 5%);
+  }
+
+  #game-banner {
+    position: relative;
+    max-width: min(100%, 1000px);
+    margin: auto;
+  }
+
+  article#game-pitch {
+    position: relative;
+    width: 100%;
+  }
+
+  img#ink-blotch {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 50%;
+    margin: auto;
+    opacity: 20%;
+    transform: rotate(90deg);
+    filter: invert(100%);
+  }
+
+  h1#title {
+    font-family: 'Water Brush', cursive;
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    font-size: max(2.8rem, 5vw);
+    z-index: 1;
+  }
+  
+  /* Make images easier to work with */
+  img,
+  picture {
+    max-width: 100%;
+    display: block;
+  }
+
+  /* Inherit fonts for inputs and buttons */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  nav {
+    text-align: center;
+    width: min(400px, 100%);
+    margin: auto;
+  }
+
+  nav > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-auto-flow: column;
+  }
+  
+  .flex-centered > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centered > * {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 30px 0px;
+  }
+
+  article {
+    padding: 50px 0px;
+  }
+
+.red:hover {
+  color:red;
+  transition: color 1s ease-out 100ms
+}
+
+#about {
+  
+}
+
+img.gallery {
+  margin:10px auto;
+  filter: brightness(60%);
+  transition-property: filter;
+  transition-duration: 0.5s;
+  max-height: 30rem;
+}
+
+.center-modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding:15px;
+  transform: translate(-50%, -50%);
+  max-height: 90%;
+}
+
+img.gallery:hover {
+  filter: brightness(100%);
+}
+
+  /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+      scroll-behavior: auto;
+    }
+  
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-weight: var(--fw-700);
+  }
+  
+  .testimonial:nth-child(1) {
+  }
+  
+  @media screen and (min-width: 40em) {
+    .class {
+    }
+  }
