@@ -19,10 +19,10 @@
 
         <li>
             <details>
-                <summary>Game Site</summary>
+                <summary>Pomodoro Timer</summary>
                     <div>
-                        Game site in progress.
-                        <a class="project" href="../i-am-you/index.html" target="_blank" rel="noreferrer">Link</a>
+                        Timer for short study sessions.
+                        <a class="project" href="https://github.com/GoldenKimchee/PomodoroTimerExtension" target="_blank" rel="noreferrer">Link</a>
                     </div>
             </details>
         </li>
