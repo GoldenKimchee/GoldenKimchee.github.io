@@ -5,24 +5,12 @@
     <div class="break"></div>
 
     <ul class="projects">
-    <!--
         <li>
             <details>
-                <summary>Pomodoro Timer</summary>
+                <summary>Etch-a-Sketch</summary>
                     <div>
-                        Timer with study and break sessions.
-                        <a class="project" href="https://github.com/GoldenKimchee/PomodoroTimerExtension" target="_blank" rel="noreferrer">Link</a>
-                    </div>
-            </details>
-        </li>
-    -->
-
-        <li>
-            <details>
-                <summary>Pomodoro Timer</summary>
-                    <div>
-                        Timer for short study sessions.
-                        <a class="project" href="https://github.com/GoldenKimchee/PomodoroTimerExtension" target="_blank" rel="noreferrer">Link</a>
+                        Doodle a sketch online.
+                        <a class="project" href="./Etch-a-Sketch/index.html" target="_blank" rel="noreferrer">Link</a>
                     </div>
             </details>
         </li>
@@ -36,12 +24,23 @@
                     </div>
             </details>
         </li>
+        
         <li>
             <details>
                 <summary>Shot Boundary App</summary>
                     <div>
                         Detects the start and end of the shot.
                         <a class="project" href="https://github.com/GoldenKimchee/Video-Shot-Boundary-Detection-System/tree/optimization" target="_blank" rel="noreferrer">Link</a>
+                    </div>
+            </details>
+        </li>
+
+                <li>
+            <details>
+                <summary>Pomodoro Timer</summary>
+                    <div>
+                        Timer with study and break sessions.
+                        <a class="project" href="https://github.com/GoldenKimchee/PomodoroTimerExtension" target="_blank" rel="noreferrer">Link</a>
                     </div>
             </details>
         </li>
