@@ -8,14 +8,33 @@
     <!--
         <li>
             <details>
-                <summary>Pomodoro Timer</summary>
+                <summary>OpenChat</summary>
                     <div>
-                        Timer with study and break sessions.
-                        <a class="project" href="https://github.com/GoldenKimchee/PomodoroTimerExtension" target="_blank" rel="noreferrer">Link</a>
+                        Chatting app with various JS frameworks.
+                        <a class="project" href="https://github.com/GoldenKimchee/OpenChat" target="_blank" rel="noreferrer">Link</a>
                     </div>
             </details>
         </li>
     -->
+        <li>
+            <details>
+                <summary>OpenChat</summary>
+                    <div>
+                        Chatting app with various JS frameworks.
+                        <a class="project" href="https://github.com/GoldenKimchee/OpenChat" target="_blank" rel="noreferrer">Link</a>
+                    </div>
+            </details>
+        </li>
+
+        <li>
+            <details>
+                <summary>Etch-a-Sketch</summary>
+                    <div>
+                        Doodle a sketch online with some DOM manipulation.
+                        <a class="project" href="https://goldenkimchee.github.io/Etch-a-Sketch/index.html" target="_blank" rel="noreferrer">Link</a>
+                    </div>
+            </details>
+        </li>
 
         <li>
             <details>
