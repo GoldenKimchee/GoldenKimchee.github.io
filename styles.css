@@ -23,6 +23,7 @@ body {
     height:100vh;
     font-size: 1rem;
     background: url("images/background.png");
+    margin-bottom: 5vh;
 }
 
 a {
