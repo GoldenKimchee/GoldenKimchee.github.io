@@ -38,10 +38,10 @@
 
         <li>
             <details>
-                <summary>Pomodoro Timer</summary>
+                <summary>TFTP Program</summary>
                     <div>
-                        Timer for short study sessions.
-                        <a class="project" href="https://github.com/GoldenKimchee/PomodoroTimerExtension" target="_blank" rel="noreferrer">Link</a>
+                        Program for client and server side that uses Trivial File Transfer Protocol.
+                        <a class="project" href="https://github.com/GoldenKimchee/TFTP-Program" target="_blank" rel="noreferrer">Link</a>
                     </div>
             </details>
         </li>

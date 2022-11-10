@@ -10,18 +10,22 @@
 </head>
 <body>
   <div class="center">
-    <h1 class="gradient-wipe">Etch-a-Sketch</h1>
+    <h1 class="gradient-wipe" alt="Etch a Sketch">Etch-a-Sketch</h1>
     
     <div class="one-line">
-      <input id="resolution" type="text"><p> x </p><p id="alt-resolution"></p><button id="generate">Generate!</button>
+      <input id="resolution" type="text" alt="Input pixel"><p> x </p><p id="alt-resolution"></p>
+      <button id="generate" alt="Generate button">Generate!</button>
     </div>
   
     <div id="main-grid">
       <!--To be filled with divs generated from index.js-->
     </div>
   
-    <label for="color" class="gradient-wipe">Color</label>
-    <input type="color" id="color" name="color" value="#000000">
+    <label for="color" class="gradient-wipe" alt="Color">Color</label>
+    <input type="color" id="color" name="color" value="#000000" alt="Color picker">
   </div>
+
+  <audio id="hover-sound" src="./dot.ogg" preload="auto" alt="Hover audio"></audio>
+
 </body>
 </html>
